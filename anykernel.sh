@@ -10,14 +10,14 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=maguro
-device.name2=toro
-device.name3=toroplus
-device.name4=tuna
+device.name1=joyeuse
+device.name2=curtana
+device.name3=gram
+device.name4=excalibur
 device.name5=
-supported.versions=
-supported.patchlevels=
-supported.vendorpatchlevels=
+supported.versions=11-14
+supported.patchlevels=2019-04
+supported.vendorpatchlevels=2019-06
 '; } # end properties
 
 
@@ -29,7 +29,7 @@ set_perm_recursive 0 0 750 750 $RAMDISK/init* $RAMDISK/sbin;
 } # end attributes
 
 # boot shell variables
-BLOCK=/dev/block/platform/omap/omap_hsmmc.0/by-name/boot;
+BLOCK=auto
 IS_SLOT_DEVICE=0;
 RAMDISK_COMPRESSION=auto;
 PATCH_VBMETA_FLAG=auto;
