@@ -17,7 +17,7 @@ device.name4=excalibur
 device.name5=
 supported.versions=11-14
 supported.patchlevels=2019-04
-supported.vendorpatchlevels=2019-06
+supported.vendorpatchlevels=2013-07
 '; } # end properties
 
 
